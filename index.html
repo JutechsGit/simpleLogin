@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login | jutechs.de</title>
+</head>
+<body>
+    <img src="Fantasy-Snow-Valley.png" alt="" style="z-index: 1;" id="backgroundImage">
+    <div id="mainFrame" class="glassy" style="z-index: 100;">
+        <h1 id="title" style="z-index: 150;">Login</h1>
+        <form id="loginForm" action="/login" method="post">
+            <input id="username" type="text" placeholder="Username" class="glassy glow" name="username"></input>
+            <input id="password" type="password" placeholder="Password" class="glassy glow" name="password"></input>
+            <div id="actionForm">
+                <a class="glassy glow" id="forgotPassword" href="/reset-password">Forgot Password</a>
+                <input type="submit" value="Login" class="glassy glow" id="submit">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

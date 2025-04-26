@@ -1,0 +1,116 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+#backgroundImage{
+    width: 100vw;
+    height:100%;
+    position: fixed;
+    object-fit:cover;
+}
+.glassy{
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17,25,40,0.75);
+    border-radius: 24px;
+    border: 1px solid rgba(255,255,255,0.12);
+}
+#mainFrame{
+    background-color: rgba(101, 101, 101, 0.22);
+    max-width: 600px;
+    width: 100%;
+    max-height: 800px;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    display:flexbox;
+    margin: 16px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+#title{
+    text-align: center;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vh;
+    margin-bottom: 0;
+    color: whitesmoke;
+    font-weight: bold;
+}
+#loginForm{
+    height: fit-content;
+    width: fit-content;
+    margin:8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25vh;
+}
+#username{
+font-family: inherit;
+height: 4vh;
+color: whitesmoke;
+padding-left: 24px;
+padding-right: 24px;
+margin-left: auto;
+margin-right: auto;
+width: 80vw;
+display: block;
+max-width: 360px;
+}
+#password{
+    font-family: inherit;
+    height: 4vh;
+    color: whitesmoke;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80vw;
+    display: block;
+    max-width: 360px;
+    margin-top: 12px;
+}
+#actionForm{
+    width: 100%;
+    margin-top: 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+#submit{
+    color: whitesmoke;
+    font: inherit;
+    height: 4vh;
+    padding-left: 24px;
+    padding-right: 24px;
+    cursor: pointer;
+
+}
+.glow:hover{
+    box-shadow: 0 0 15px 5px blueviolet;
+    border-color: blueviolet;
+    transition-duration: 150ms;
+}
+#forgotPassword{
+    color: whitesmoke;
+    font:inherit;
+    height: 4vh;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
